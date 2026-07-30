@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <Name value="Mod_VehicleSuperDuperCharger" />
+	<DisplayName value="Vehicle Super Duper Charger" />
+    <Description value="A mod to add stronger vehicle chargers and up their velocity limits." />
+    <Author value="Buttered Rye" />
+    <Version value="0.0.1" />
+</xml>

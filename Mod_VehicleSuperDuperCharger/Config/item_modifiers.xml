@@ -1,0 +1,15 @@
+<configs>
+
+	<!-- Leveled up vehicle super charger, giving more torque and more speed to the attached vehicle. -->
+	<append xpath="/item_modifiers">
+		<item_modifier name="modVehicleSuperDuperChargerBTR" installable_tags="vengine" modifier_tags="speed" blocked_tags="noMods" type="attachment">
+			<property name="Extends" value="modVehicleSuperCharger"/>
+			<property name="UnlockedBy" value="modVehicleSuperDuperChargerSchematicBTR"/>
+			<property name="CustomIcon" value="modVehicleSuperDuperChargerBTR"/>
+			<effect_group tiered="false">
+				<passive_effect name="VehicleMotorTorquePer" operation="perc_add" value="1.12"/>
+				<passive_effect name="VehicleVelocityMaxPer" operation="perc_add" value="1.18"/>
+			</effect_group>
+		</item_modifier>
+	</append>
+</configs>

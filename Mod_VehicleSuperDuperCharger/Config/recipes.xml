@@ -1,0 +1,11 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="modVehicleSuperDuperChargerBTR" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="25"/>
+			<ingredient name="resourceMetalPipe" count="15"/>
+			<ingredient name="resourceRadiator" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="8"/>
+			<ingredient name="resourceLegendaryParts" count="1"/>
+		</recipe>		
+	</append>
+</configs>
